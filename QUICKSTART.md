@@ -29,20 +29,9 @@ Plug the Pico into your PC via USB.
 | **GP0** — pin 1, top-left corner next to USB *(chip facing you)* | Scope probe **tip** |
 | **GND** — pin 3, two pins below GP0 on the left edge | Scope probe **GND clip** |
 
-```
-              USB
-         +----[   ]----+
-  pin 1  | GP0          |  <-- probe TIP here   (top-left, chip facing you)
-  pin 2  |              |
-  pin 3  | GND          |  <-- probe GND clip here
-         +-------------+
-```
-
 ![Pico probe connection points](pico.png)
 
-![Pico probe connection points](pico.png)
-
-![Pico probe connection points](pico.png)
+---
 
 ## 3. Deploy and launch
 
