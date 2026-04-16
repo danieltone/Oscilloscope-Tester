@@ -69,6 +69,8 @@ The menu looks like this:
 Choice:
 ```
 
+![Oscilloscope Tester menu](menu.png)
+
 ---
 
 ## 4. Run your first test

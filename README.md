@@ -153,6 +153,8 @@ The menu appears on the terminal:
 Choice:
 ```
 
+![Oscilloscope Tester menu](menu.png)
+
 Type a number and press **Enter** to start the waveform. The signal runs
 continuously until you press **any key** to stop it, then the menu returns.
 
