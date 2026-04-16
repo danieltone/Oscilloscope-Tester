@@ -48,18 +48,6 @@ GP0  (pin 1)  --------> CH1 probe tip   ← top-left corner (chip facing you, US
 GND  (pin 3)  --------> CH1 probe GND clip
 ```
 
-### Pin diagram (chip facing you, USB at top)
-
-```
-              USB
-         +----[   ]----+
-  pin 1  | GP0       40| VBUS    <-- GP0 = probe TIP  (top-left, first pin)
-  pin 2  |           39|
-  pin 3  | GND       38| GND    <-- GND = probe GND clip (two pins below GP0)
-         |    ...      |
-         +-------------+
-```
-
 ![Pico probe connection points](pico.png)
 
 ---
