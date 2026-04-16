@@ -42,6 +42,8 @@ Plug the Pico into your PC via USB.
 
 ![Pico probe connection points](pico.png)
 
+![Pico probe connection points](pico.png)
+
 ## 3. Deploy and launch
 
 **First time only** — upload the firmware and open the terminal:
