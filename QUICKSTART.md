@@ -18,20 +18,24 @@ Plug the Pico into your PC via USB.
 
 ## 2. Wire the scope probe
 
-> **Orientation:** Hold the Pico with the chips facing **toward you** and the USB connector at the **top**. The pins on the left edge are numbered top-to-bottom starting at 1.
+> **Orientation — this is the most common source of confusion:**
+> Hold the Pico with the **chip side facing you** and the **USB connector at the top**.
+> **GP0 is the very first pin** — top-left corner, right next to the USB connector.
+> **GND is pin 3**, two holes below GP0 on the same left edge.
+> Rotating or flipping the board puts you on completely different pins — you will see nothing.
 
 | Pico pin | Connect to |
 |----------|-----------|
-| **GP0** (pin 1, top-left next to USB) | Scope probe **tip** |
-| **GND** (pin 3, two pins down) | Scope probe **GND clip** |
+| **GP0** — pin 1, top-left corner next to USB *(chip facing you)* | Scope probe **tip** |
+| **GND** — pin 3, two pins below GP0 on the left edge | Scope probe **GND clip** |
 
 ```
-         USB
-    +----[   ]----+
-GP0 |1             |  <-- probe TIP here
-    |2             |
-GND |3             |  <-- probe GND clip here
-    +-------------+
+              USB
+         +----[   ]----+
+  pin 1  | GP0          |  <-- probe TIP here   (top-left, chip facing you)
+  pin 2  |              |
+  pin 3  | GND          |  <-- probe GND clip here
+         +-------------+
 ```
 
 ![Pico probe connection points](pico.png)

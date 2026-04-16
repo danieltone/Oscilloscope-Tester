@@ -35,23 +35,29 @@ All signals appear on **GP0 (physical pin 1)**. GND connects to any GND pin.
 
 ## Connections
 
+> **Critical — orientation matters:**
+> Hold the Pico with the **chip side facing you** and the **USB connector at the top**.
+> In this position, **GP0 is the very first pin** — top-left corner, immediately next to the USB connector.
+> **GND is pin 3**, two pins below GP0 on the same left edge.
+> If the board is rotated or flipped you will probe the wrong pins and see nothing.
+
 ```
 Pico                    Oscilloscope
 ----                    ------------
-GP0  (pin 1)  --------> CH1 probe tip
+GP0  (pin 1)  --------> CH1 probe tip   ← top-left corner (chip facing you, USB at top)
 GND  (pin 3)  --------> CH1 probe GND clip
 ```
 
-### Pin diagram (Pico top view)
+### Pin diagram (chip facing you, USB at top)
 
 ```
-         USB
-    +----[   ]----+
-GP0 |1          40| VBUS
-GND |3          38| GND  <-- use this GND
-    |             |
-    |  ...        |
-    +-------------+
+              USB
+         +----[   ]----+
+  pin 1  | GP0       40| VBUS    <-- GP0 = probe TIP  (top-left, first pin)
+  pin 2  |           39|
+  pin 3  | GND       38| GND    <-- GND = probe GND clip (two pins below GP0)
+         |    ...      |
+         +-------------+
 ```
 
 ![Pico probe connection points](pico.png)
